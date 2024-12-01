@@ -21,7 +21,7 @@ def part_1(input_list: list) -> int:
     sorted_second = [int(line[1]) for line in separated_numbers]
     sorted_first.sort()
     sorted_second.sort()
-    distances = [abs(sorted_second[idx]-sorted_first[idx]) for idx in range(len(input_list))]
+    distances = [abs(sorted_second[idx] - sorted_first[idx]) for idx in range(len(input_list))]
     return sum(distances)
 
 
