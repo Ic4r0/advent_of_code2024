@@ -18,9 +18,9 @@ from days.day_2 import day_2
 from days.day_3 import day_3
 from days.day_4 import day_4
 from days.day_5 import day_5
-# from days.day_6 import day_6
-# from days.day_7 import day_7
-# from days.day_8 import day_8
+from days.day_6 import day_6
+from days.day_7 import day_7
+from days.day_8 import day_8
 # from days.day_9 import day_9
 # from days.day_10 import day_10
 # from days.day_11 import day_11
@@ -46,12 +46,12 @@ def save_xmas(selected_day: int, selected_part: int = None, is_test: bool = Fals
         day_4(selected_part, is_test)
     elif selected_day == 5:
         day_5(selected_part, is_test)
-    # elif selected_day == 6:
-    #     day_6(selected_part, is_test)
-    # elif selected_day == 7:
-    #     day_7(selected_part, is_test)
-    # elif selected_day == 8:
-    #     day_8(selected_part, is_test)
+    elif selected_day == 6:
+        day_6(selected_part, is_test)
+    elif selected_day == 7:
+        day_7(selected_part, is_test)
+    elif selected_day == 8:
+        day_8(selected_part, is_test)
     # elif selected_day == 9:
     #     day_9(selected_part, is_test)
     # elif selected_day == 10:
